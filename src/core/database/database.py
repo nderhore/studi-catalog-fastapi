@@ -2,7 +2,8 @@ from sqlalchemy import create_engine
 
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-SQL_ALCHEMY_DATABASE_URL = 'mariadb+mariadbconnector://nathand59_catapi:Toto&59895@mysql-nathand59.alwaysdata.net/nathand59_catalog'
+SQL_ALCHEMY_DATABASE_URL = 'mariadb://user:password@host' \
+                           '/database'
 
 # Creation du moteur sqlalchemy
 engine = create_engine(SQL_ALCHEMY_DATABASE_URL)

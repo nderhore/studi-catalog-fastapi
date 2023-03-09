@@ -1,0 +1,4 @@
+certifi==2022.12.7
+mysqlclient==2.1.1
+packaging==23.0
+SQLAlchemy==2.0.4
