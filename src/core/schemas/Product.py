@@ -5,6 +5,7 @@ class ProductBase(BaseModel):
     product_id: int = None
     libelle: str
     prix: float
+    catalog_id: int = None
 
 
 class ProductUpdate(BaseModel):
